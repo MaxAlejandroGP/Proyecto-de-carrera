@@ -1,0 +1,59 @@
+.multi-card-container{
+    margin-top: 18%;
+    border-radius: 5%;
+    background-color: #bdbdbd ;
+    width: 25%;
+    height: 500px;
+    overflow: hidden;
+    transition: 0.3s;
+    box-shadow:0px 0px 15px -5px;
+    animation: ease-in;
+}
+
+.multi-card-container:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 15px -5px;
+}
+
+.multi-image-container {
+    text-align: center;
+}
+.multi-image-container img{
+    overflow: hidden;
+    height:150px;
+    margin-top: 10%;
+}
+
+.multi-card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+    
+}
+
+.multi-card-title{
+    text-align: center;
+    font-size: 90%;
+}
+
+.multi-card-body{
+    text-align:center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size:150%;
+    color: #000000;
+    margin: 1.5rem 0rem;
+    
+}
+
+.multi-card-button{
+    display:flex;
+    justify-content: center;
+}
+
+.multi-card-button Button{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
