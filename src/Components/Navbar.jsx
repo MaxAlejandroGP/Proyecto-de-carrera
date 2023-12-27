@@ -1,13 +1,11 @@
 import React from 'react'
 import '../App.css';
 import navbar_logo from '../Assets/SW_Logo.png'
+import { Link } from 'react-router-dom';
 
 function Navbar(){
-
     const scrollToObjetive = () => {
-
         const scrollY = window.scrollY + 790;
-    
         window.scrollTo({
           top: scrollY,
           behavior: 'smooth',
@@ -15,9 +13,7 @@ function Navbar(){
       };
 
     const scrollToCauses = () => {
-
         const scrollY = window.scrollY + 1780;
-    
         window.scrollTo({
           top: scrollY,
           behavior: 'smooth',
@@ -25,9 +21,7 @@ function Navbar(){
       };
 
     const scrollToStrategys = () => {
-
         const scrollY = window.scrollY + 2690;
-    
         window.scrollTo({
           top: scrollY,
           behavior: 'smooth',
@@ -35,9 +29,7 @@ function Navbar(){
       };
 
     const scrollToDocuments = () => {
-
         const scrollY = window.scrollY + 3700;
-    
         window.scrollTo({
           top: scrollY,
           behavior: 'smooth',
@@ -55,18 +47,24 @@ function Navbar(){
 
             <div>
                 <ul id="navbar">
-                <li><a href="index.html">INICIO</a></li>
+                <li><a href="/">INICIO</a></li>
                 <li><a onClick={scrollToObjetive}>OBJETIVO</a></li>
                 <li><a onClick={scrollToCauses}>CAUSAS</a></li>
                 <li><a onClick={scrollToStrategys}>ESTRATEGIAS</a></li>
                 <li><a onClick={scrollToDocuments}>DOCUMENTACIÓN</a></li>
-                {/*<li>
-                    <b className="navbar-button-container">
-                    <button className="navbar-button"> Button </button>
-                    </b>
-                </li>*/}
+              
                 </ul> 
                 
+            </div>
+            <div>
+            <li>
+                    <b className="navbar-button-container">
+                    <Link to="/descargas" className="navbar-button">
+                    ENLACES
+                    </Link>
+                    {/*<button className="navbar-button"> ENLACES </button>*/}
+                    </b>
+                </li>
             </div>
         </nav>
         </>

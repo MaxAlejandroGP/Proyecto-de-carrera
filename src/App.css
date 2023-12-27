@@ -44,7 +44,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 370px;
+    padding-left: 295px;
 }
 
 #navbar li{
@@ -63,7 +63,7 @@ nav {
 
 #navbar li a:hover,
 #navbar li a.active{
-    color: #a99b00;
+    color: #ffea00;
 }
 
 
@@ -84,7 +84,8 @@ nav {
 
 .navbar-button {
     padding: 0.9rem 1.75rem;
-    background-color: white;
+    color: black;
+    background-color: rgb(255, 255, 255);
     outline: none;
     border: none;
     border-radius: 5rem;
@@ -95,7 +96,7 @@ nav {
 }
 
 .navbar-button:hover {
-    background-color: rgb(234, 234, 234);
+    background-color: #ffea00;
 }
 
 

@@ -2,7 +2,7 @@ import React from "react";
 import '../App.css';
 import logo1 from "../Assets/follow1.png"
 import logo2 from "../Assets/follow2.png"
-import logo3 from "../Assets/follow3.png"
+import logo3 from "../Assets/follow4.png"
 const Footer = () => {
   return (
     <footer>
@@ -11,7 +11,7 @@ const Footer = () => {
           CONSULTA INFO: +52 664 999 999
         </div>
         <div className="footer-tittle-container">
-          "DUERME BIEN CON SLEEPWELL.ORG"
+          "DUERME BIEN GRACIAS A SLEEPWELL.ORG"
         </div>
         <div className="footer-follow-container">
           SIGUENOS:

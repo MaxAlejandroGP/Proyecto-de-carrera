@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 
 function MultiCard({title,image,body,linkTo}){
     const handleClick = () => {
-        window.location.href = linkTo;
+        window.open(linkTo, '_blank');
       };
     return(
         <div

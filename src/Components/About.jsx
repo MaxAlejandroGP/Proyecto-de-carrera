@@ -6,7 +6,7 @@ import AboutBackgroundImage from "../Assets/SW_About.png";
 const About = () => {
 
   const scrollToDocuments = () => {
-    // Puedes ajustar el valor de scrollY según tus necesidades
+
     const scrollY = window.scrollY + 9999;
 
     window.scrollTo({
